@@ -1,0 +1,28 @@
+criar  tabela  produtos (
+idprodutos int  not null auto_increment chave primária ,
+nome varchar ( 30 ) não nulo ,
+preco tinyint,
+quantidade varchar ( 30 ) não nula
+);
+
+inserir em (nome, preco, quantidade de produtos)
+valores ( ' Carne ' , 30 , ' 2Kg ' ),
+	  ( ' Óleo ' , 30 , ' 1 Unidade ' ),
+      ( ' Leite ' , 30 , ' 1,5 Litros ' ),
+      ( ' Alface ' , 30 , ' 1 Unidade ' ),
+      ( ' Açaí ' , 15 , ' 1,5 Litros ' ),
+      ( ' Cebola ' , 4 , ' 1Kg ' ),
+      ( ' Arroix ' , 5 , ' 1Kg ' );
+
+excluir  dos produtos
+onde idprodutos =  ' 6 ' ;
+
+atualizar produtos
+set idprodutos =  ' 6 '
+onde idprodutos =  ' 7 ' ;
+
+atualizar produtos
+set nome =  ' Arroz '
+onde idprodutos =  ' 6 ' ;
+
+selecione  *  dos produtos;
